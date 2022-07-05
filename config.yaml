@@ -40,8 +40,9 @@ languages:
       profileMode:
         enabled: true
         title: Welcome to the initial page of my blog
-        subtitle: "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？</br>👏🏼欢迎光临素履(Sulv)的博客</br>👇联系方式"
-        imageUrl: "img/Q.gif"
+        subtitle: "PlaceHolder"
+        # imageUrl: "resources/_gen/images/life2.jpg"
+        imageUrl: "images/life2.jpg"
         imageTitle: 
         imageWidth: 150
         imageHeight: 150
@@ -52,7 +53,7 @@ languages:
             url: posts/read
           - name: 生活
             url: posts/life
-          # - name: 🌹素履的博客
+          # - name: 素履的博客
           #   url: https://www.xyming108.top
       menu:
         main:
@@ -106,7 +107,7 @@ outputs:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     # description: "这是一个纯粹的博客......"
-    author: Sulv
+    author: Linsong
     # author: ["Me", "You"] # multiple authors
 
   
@@ -133,23 +134,23 @@ params:
     
     socialIcons:
         - name: github
-          url: "https://github.com/xyming108"
-        - name: twitter
-          url:  "img/twitter.png"
-        - name: facebook
-          url: "https://www.facebook.com/profile.php?id=100027782410997"
-        - name: instagram
-          url: "img/instagram.png"
-        - name: QQ
-          url: "img/qq.png"
-        - name: WeChat
-          url: "img/wechat.png"
+          url: "https://github.com/SunnyScenery"
+        # - name: twitter
+        #   url:  "img/twitter.png"
+        # - name: facebook
+        #   url: "https://www.facebook.com/profile.php?id=100027782410997"
+        # - name: instagram
+        #   url: "img/instagram.png"
+        # - name: QQ
+        #   url: "img/qq.png"
+        # - name: WeChat
+        #   url: "img/wechat.png"
         # - name: Phone
         #   url: "img/phone.png"
         - name: email
-          url: "mailto:1931559710@qq.com"
-        - name: RSS
-          url: "index.xml"
+          url: "mailto:wanglinsung@gmail.com"
+        # - name: RSS
+        #   url: "index.xml"
 
     # editPost:
     #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
