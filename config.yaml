@@ -39,64 +39,46 @@ languages:
       weight: 1
       profileMode:
         enabled: true
-        title: Welcome to the initial page of my blog
-        subtitle: "PlaceHolder"
+        title: Welcome to Linsong's Blog!
+        subtitle: Everyone survives. 努力地感受生活
         # imageUrl: "resources/_gen/images/life2.jpg"
         imageUrl: "images/life2.jpg"
         imageTitle: 
         imageWidth: 150
         imageHeight: 150
         buttons:
-          - name: 技术
-            url: posts/tech
-          - name: 阅读
-            url: posts/read
-          - name: 生活
-            url: posts/life
-          # - name: 素履的博客
-          #   url: https://www.xyming108.top
+          - name: Learning
+            url: posts/tech/
+          - name: Thoughts
+            url: posts/thoughts/
+          - name: Experience
+            url: posts/life/
       menu:
         main:
           - identifier: search
-            name: 搜索
+            name: Search
             url: search
             weight: 1
           - identifier: home
-            name: 主页
+            name: Homepage
             url: /
             weight: 2
           - identifier: posts
-            name: 文章
+            name: Posts
             url: posts
             weight: 3
-          # - identifier: tech
-          #   name: 👨🏻‍💻技术文章
-          #   url: posts/tech
-          #   weight: 5
-          # - identifier: life
-          #   name: 记录生活
-          #   url: posts/life
-          #   weight: 6
           - identifier: archives
-            name: 时间轴
+            name: Timeline
             url: archives/
             weight: 20
-          # - identifier: categories
-          #   name: 分类
-          #   url: categories
-          #   weight: 30
           - identifier: tags
-            name: 标签
+            name: Tags
             url: tags
             weight: 40
           - identifier: about
-            name: 关于
+            name: About
             url: about
             weight: 50
-          - identifier: links
-            name: 友链
-            url: links
-            weight: 60
 
 outputs:
     home:
@@ -135,36 +117,8 @@ params:
     socialIcons:
         - name: github
           url: "https://github.com/SunnyScenery"
-        # - name: twitter
-        #   url:  "img/twitter.png"
-        # - name: facebook
-        #   url: "https://www.facebook.com/profile.php?id=100027782410997"
-        # - name: instagram
-        #   url: "img/instagram.png"
-        # - name: QQ
-        #   url: "img/qq.png"
-        # - name: WeChat
-        #   url: "img/wechat.png"
-        # - name: Phone
-        #   url: "img/phone.png"
         - name: email
           url: "mailto:wanglinsung@gmail.com"
-        # - name: RSS
-        #   url: "index.xml"
-
-    # editPost:
-    #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-    #     Text: "Suggest Changes" # edit text
-    #     appendFilePath: true # to append file path to Edit link
-
-    # label:
-    #     text: "Home"
-    #     icon: icon.png
-    #     iconHeight: 35
-
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
 
     assets:
         favicon: "img/Q.gif"
@@ -172,11 +126,6 @@ params:
         favicon32x32: "img/Q.gif"
         apple_touch_icon: "Q.gif"
         safari_pinned_tab: "Q.gif"
-
-    # cover:
-    #     hidden: true # hide everywhere but not in structured data
-    #     hiddenInList: true # hide on list pages and home
-    #     hiddenInSingle: true # hide on single page
 
     fuseOpts:
         isCaseSensitive: false
@@ -208,6 +157,8 @@ markup:
         # style: monokai
         style: darcula
 
+        codeFences: true
+        guessSyntax: true
         # codeFences：代码围栏功能，这个功能一般都要设为 true 的，不然很难看，就是干巴巴的-代码文字，没有颜色。
         # guessSyntax：猜测语法，这个功能建议设置为 true, 如果你没有设置要显示的语言则会自动匹配。
         # hl_Lines：高亮的行号，一般这个不设置，因为每个代码块我们可能希望让高亮的地方不一样。
